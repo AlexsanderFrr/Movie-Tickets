@@ -22,8 +22,8 @@
 
     <View
         android:id="@+id/viewDescIngresso"
-        android:layout_width="311dp"
-        android:layout_height="158dp"
+        android:layout_width="308dp"
+        android:layout_height="165dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginBottom="112dp"
