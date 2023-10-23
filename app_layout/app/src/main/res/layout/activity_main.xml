@@ -9,89 +9,165 @@
     tools:layout_editor_absoluteY="1dp"
     android:fillViewport="true">
 
-<androidx.constraintlayout.widget.ConstraintLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
 
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="#2B2E4A"
-    tools:context=".MainActivity">
-
-
-    <LinearLayout
-        android:id="@+id/linearLayout3"
         android:layout_width="match_parent"
-        android:layout_height="500dp"
-        android:layout_marginTop="50dp"
-        android:background="#760AF3"
-        android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"></LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="match_parent"
-        android:layout_height="260dp"
-        android:layout_marginTop="50dp"
-        android:background="#E84545"
-        android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"></LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="match_parent"
-        android:layout_height="240dp"
-        android:layout_marginTop="92dp"
-        android:background="#760AF3"
-        android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <LinearLayout
-        android:id="@+id/linearLayout4"
-        android:layout_width="match_parent"
-        android:layout_height="260dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="1dp"
-        android:background="#E84545"
-        android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
-
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_marginBottom="59dp"
-        android:background="@drawable/shp_radius"
-        android:text=""
-        app:circularflow_radiusInDP="10dp"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_marginTop="40dp"
-        android:background="@drawable/shp_radius"
-        android:rotation="180"
-        android:text=""
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
+        android:layout_height="wrap_content"
+        android:background="#2B2E4A"
+        tools:context=".MainActivity">
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <RelativeLayout
+            android:id="@+id/layout_lancamento"
+            android:layout_width="match_parent"
+            android:layout_height="393dp"
+            android:layout_marginTop="145dp"
+            android:background="#760AF3"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/filmes_em_alta">
+
+            <ImageView
+                android:id="@+id/imageView_grandTurismo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/grand_turismo" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/filmes_em_alta"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:layout_marginTop="50dp"
+            android:background="#E84545"
+            android:padding="20dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/layou_pre_venda">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/layou_pre_venda"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="50dp"
+            android:background="#2B2E4A"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.488"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/five_nights" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="175dp"
+                android:layout_height="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="203dp"
+                android:layout_marginEnd="201dp"
+                android:layout_marginBottom="27dp"
+                android:height="100dp"
+                android:background="@drawable/shp_teste"
+                android:textColor="@color/white"
+                android:paddingStart="12dp"
+                android:text="Pré-Venda Disponivel
+" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_em_breve"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="1dp"
+            android:background="#E84545"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/layout_lancamento" />
+
+        <TextView
+            android:id="@+id/txtView_bar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/shp_radius"
+            android:text=""
+            app:circularflow_radiusInDP="10dp"
+            app:layout_constraintBottom_toTopOf="@+id/layou_pre_venda"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txt_bar_down"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/shp_radius"
+            android:rotation="180"
+            android:text=""
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/layout_em_breve" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="200dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="10dp"
+            android:gravity=""
+            android:text="Filmes em alta"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/filmes_em_alta"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/layou_pre_venda"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/textView_lancamento"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/shp_teste"
+            android:gravity="center"
+            android:text="Lançamento"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            app:layout_constraintBottom_toTopOf="@+id/layout_lancamento"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/filmes_em_alta"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

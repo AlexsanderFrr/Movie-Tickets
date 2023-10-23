@@ -27,7 +27,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginBottom="112dp"
-        android:background="@drawable/descricaoIngresso"
+        android:background="@drawable/descricao_ingresso"
         app:circularflow_radiusInDP="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
