@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="160dp"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/image_movie"
+        android:layout_width="wrap_content"
+        android:layout_height="152dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="19dp"
+        tools:srcCompat="@tools:sample/avatars"
+       />
+
+    <TextView
+        android:id="@+id/text_name_movie"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_note_tomato"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="19dp"
+        android:text="Nome Filme"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/text_note_public"
+        android:layout_width="25dp"
+        android:layout_height="19dp"
+        android:layout_below="@+id/image_movie"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="46dp"
+        android:layout_toStartOf="@+id/text_note_tomato"
+        android:text="Nota P"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/text_note_tomato"
+        android:layout_width="25dp"
+        android:layout_height="19dp"
+        android:layout_below="@+id/image_movie"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="29dp"
+        android:text="Nota T"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imageView_pipoca"
+        android:layout_width="19dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/text_name_movie"
+        android:layout_below="@+id/image_movie"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="-2dp"
+        android:layout_toStartOf="@+id/text_note_public"
+        app:srcCompat="@drawable/pipoca" />
+
+    <ImageView
+        android:id="@+id/imageView_tomate"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/text_name_movie"
+        android:layout_below="@+id/image_movie"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="-2dp"
+        android:layout_toStartOf="@+id/text_note_tomato"
+        app:srcCompat="@drawable/tomate" />
+
+</RelativeLayout>
