@@ -10,7 +10,9 @@ import androidx.recyclerview.widget.RecyclerView;
 public class MyViewHolder extends RecyclerView.ViewHolder {
 
     ImageView image_movie, image_tomate, image_pipoca;
-    TextView text_name_movie, text_note_public, text_note_tomato;
+    TextView text_name_movie, text_note_public, text_note_tomato, text_data;
+
+
 
 
     public MyViewHolder(@NonNull View itemView) {
@@ -22,6 +24,8 @@ public class MyViewHolder extends RecyclerView.ViewHolder {
         text_name_movie = itemView.findViewById(R.id.text_name_movie);
         text_note_public = itemView.findViewById(R.id.text_note_public);
         text_note_tomato = itemView.findViewById(R.id.text_note_tomato);
+        text_data = itemView.findViewById(R.id.txt_data);
+
 
     }
 }

@@ -28,6 +28,7 @@
         android:layout_width="308dp"
         android:layout_height="165dp"
         android:layout_alignParentLeft="true"
+        android:background="@drawable/descricao_ingresso"
         android:layout_alignParentTop="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,19 +37,6 @@
         app:layout_constraintTop_toBottomOf="@+id/imgIngressoFilme"
         app:layout_constraintVertical_bias="0.0" />
 
-    < android:id="@+id/" />< android:id="@+id/2" />< android:id="@+id/3" />< android:id="@+id/4" />< android:id="@+id/5" />< android:id="@+id/6" />< HEAD
-        android:background="@drawable/ticket"
-    android:id="@+id/7" />
-=======
-        android:background="@drawable/descricao_ingresso"
->>>>>>> afff804ef89720a36f50780c30014fe989bc4c09
-        app:circularflow_radiusInDP="5dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgIngressoFilme"
-        app:layout_constraintVertical_bias="0.0" />
 
     <View
         android:id="@+id/imgIngressoFilme"

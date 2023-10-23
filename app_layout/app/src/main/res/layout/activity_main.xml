@@ -34,6 +34,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 app:srcCompat="@drawable/grand_turismo" />
+
         </RelativeLayout>
 
         <LinearLayout
@@ -99,13 +100,20 @@
             android:layout_width="match_parent"
             android:layout_height="260dp"
             android:layout_marginStart="1dp"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="80dp"
             android:layout_marginEnd="1dp"
             android:background="#E84545"
             android:orientation="horizontal"
+            android:paddingTop="15dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/layout_lancamento" />
+            app:layout_constraintTop_toBottomOf="@+id/layout_lancamento">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView_em_breve"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
 
         <TextView
             android:id="@+id/txtView_bar"
@@ -167,6 +175,22 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/filmes_em_alta"
             app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:text="Em breve"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/layout_em_breve"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.06"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/layout_lancamento"
+            app:layout_constraintVertical_bias="0.775" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

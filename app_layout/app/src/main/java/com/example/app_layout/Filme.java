@@ -9,13 +9,16 @@ public class Filme {
     int image_pipoca;
     int image_tomate;
 
-    public Filme(String name, String nPublico, String nTomato, int image,  int image_pipoca,  int image_tomate) {
+    String data;
+
+    public Filme(String name, String nPublico, String nTomato, int image,  int image_pipoca,  int image_tomate, String data) {
         this.name = name;
         this.nPublico = nPublico;
         this.nTomato = nTomato;
         this.image = image;
         this.image_pipoca = image_pipoca;
         this.image_tomate = image_tomate;
+        this.data = data;
     }
 
     public String getName() {
@@ -64,5 +67,13 @@ public class Filme {
 
     public void setImage_tomate(int image_tomate) {
         this.image_tomate = image_tomate;
+    }
+
+    public String getData() {
+        return data;
+    }
+
+    public void setData(String data) {
+        this.data = data;
     }
 }
