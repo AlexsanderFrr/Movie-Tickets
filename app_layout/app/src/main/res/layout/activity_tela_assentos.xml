@@ -19,6 +19,117 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!--LETRAS DAS FILEIRAS-->
+    <TextView
+        android:id="@+id/fileiraa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="387dp" />
+
+    <TextView
+        android:id="@+id/fileirab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="357dp" />
+
+    <TextView
+        android:id="@+id/fileirac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="327dp" />
+
+    <TextView
+        android:id="@+id/fileirad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+    <TextView
+        android:id="@+id/fileirae"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="267dp" />
+
+    <TextView
+        android:id="@+id/fileiraf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="F"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <TextView
+        android:id="@+id/fileirag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="G"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <TextView
+        android:id="@+id/fileirah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="H"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <TextView
+        android:id="@+id/fileirai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <TextView
+        android:id="@+id/fileiraj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="J"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="117dp" />
+
     <!-- NUMERAÇÃO DAS FILEIRAS-->
 
 
@@ -32,6 +143,8 @@
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="33dp"
         tools:layout_editor_absoluteY="419dp" />
+
+
 
     <TextView
         android:id="@+id/fileira2"
@@ -655,6 +768,516 @@
         tools:layout_editor_absoluteX="355dp"
         tools:layout_editor_absoluteY="267dp" />
 
+
+    <!-- Assentos da fila 'F' (1 a 11) -->
+    <View
+        android:id="@+id/f1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <View
+        android:id="@+id/f2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <View
+        android:id="@+id/f3"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <View
+        android:id="@+id/f4"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <View
+        android:id="@+id/f5"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <View
+        android:id="@+id/f6"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <View
+        android:id="@+id/f7"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <View
+        android:id="@+id/f8"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="265dp"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <View
+        android:id="@+id/f9"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="295dp"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <View
+        android:id="@+id/f10"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="325dp"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <View
+        android:id="@+id/f11"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="355dp"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <!-- Assentos da fila 'G' (1 a 11) -->
+    <View
+        android:id="@+id/g1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <View
+        android:id="@+id/g2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <View
+        android:id="@+id/g3"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <View
+        android:id="@+id/g4"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <View
+        android:id="@+id/g5"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <View
+        android:id="@+id/g6"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <View
+        android:id="@+id/g7"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <View
+        android:id="@+id/g8"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="265dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <View
+        android:id="@+id/g9"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="295dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <View
+        android:id="@+id/g10"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="325dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <View
+        android:id="@+id/g11"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="355dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <!-- Assentos da fila 'H' (1 a 11) -->
+    <View
+        android:id="@+id/h1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <View
+        android:id="@+id/h2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <View
+        android:id="@+id/h3"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <View
+        android:id="@+id/h4"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <View
+        android:id="@+id/h5"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <View
+        android:id="@+id/h6"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <View
+        android:id="@+id/h7"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <View
+        android:id="@+id/h8"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="265dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <View
+        android:id="@+id/h9"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="295dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <View
+        android:id="@+id/h10"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="325dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <View
+        android:id="@+id/h11"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="355dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+
+    <!-- Assentos da fila 'I' (1 a 11) -->
+    <View
+        android:id="@+id/i1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <View
+        android:id="@+id/i2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <View
+        android:id="@+id/i3"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <View
+        android:id="@+id/i4"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <View
+        android:id="@+id/i5"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <View
+        android:id="@+id/i6"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <View
+        android:id="@+id/i7"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <View
+        android:id="@+id/i8"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="265dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <View
+        android:id="@+id/i9"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="295dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <View
+        android:id="@+id/i10"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="325dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <View
+        android:id="@+id/i11"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="355dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <!-- Assentos da fila 'J' (1 a 11) -->
+    <View
+        android:id="@+id/j1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <View
+        android:id="@+id/j2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <View
+        android:id="@+id/j3"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <View
+        android:id="@+id/j4"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <View
+        android:id="@+id/j5"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <View
+        android:id="@+id/j6"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <View
+        android:id="@+id/j7"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <View
+        android:id="@+id/j8"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="265dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <View
+        android:id="@+id/j9"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="295dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <View
+        android:id="@+id/j10"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="325dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <View
+        android:id="@+id/j11"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/assentobranco"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="355dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="324dp"
+        android:layout_height="34dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/TELA"
+        tools:layout_editor_absoluteY="508dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
