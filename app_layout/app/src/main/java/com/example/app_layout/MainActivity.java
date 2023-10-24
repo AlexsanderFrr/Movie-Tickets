@@ -4,12 +4,17 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements SelectListener {
+
+    List<Filme> filmes = new ArrayList<Filme>();
+    List<Filme> filmes_em_breve = new ArrayList<Filme>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,8 +24,7 @@ public class MainActivity extends AppCompatActivity {
         RecyclerView recyclerView = findViewById(R.id.recyclerView);
         RecyclerView recyclerView_em_Breve = findViewById(R.id.recyclerView_em_breve);
 
-        List<Filme> filmes = new ArrayList<Filme>();
-        List<Filme> filmes_em_breve = new ArrayList<Filme>();
+
 
         filmes.add(new Filme("Besouro azul", "10","10",R.drawable.besouro_azul,R.drawable.pipoca,R.drawable.tomate, "10/10/23"));
         filmes.add(new Filme("Barbie", "10","10",R.drawable.barbie,R.drawable.pipoca,R.drawable.tomate, "10/10/23"));
@@ -45,10 +49,24 @@ public class MainActivity extends AppCompatActivity {
         recyclerView_em_Breve.setLayoutManager(linearLayoutManager_em_breve);
 
 
-        recyclerView.setAdapter(new MyAdapter(getApplicationContext(),filmes));
-        recyclerView_em_Breve.setAdapter(new MyAdapter_emBreve(getApplicationContext(),filmes_em_breve));
+        recyclerView.setAdapter(new MyAdapter(getApplicationContext(),filmes, this));
+        recyclerView_em_Breve.setAdapter(new MyAdapter_emBreve(getApplicationContext(),filmes_em_breve, this));
 
         //-------------------------------------------------Tela Splash------------------------------------------//
 
+    }
+
+    @Override
+    public void onClicked(int position) {
+
+        Intent intent = new Intent(MainActivity.this, TelaIngresso.class);
+
+        intent.putExtra("IMG",filmes.get(position).getImage());
+        intent.putExtra("NAME",filmes.get(position).getName());
+        intent.putExtra("DATE",filmes.get(position).getData());
+
+
+
+        startActivity(intent);
     }
 }
