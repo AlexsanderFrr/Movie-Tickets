@@ -47,5 +47,8 @@ public class MainActivity extends AppCompatActivity {
 
         recyclerView.setAdapter(new MyAdapter(getApplicationContext(),filmes));
         recyclerView_em_Breve.setAdapter(new MyAdapter_emBreve(getApplicationContext(),filmes_em_breve));
+
+        //-------------------------------------------------Tela Splash------------------------------------------//
+
     }
 }
