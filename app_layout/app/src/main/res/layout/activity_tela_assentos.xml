@@ -268,7 +268,7 @@
         tools:ignore="MissingConstraints">
 
         <!-- Assentos da fila 'A' (1 a 10) -->
-        <!-- Adicione os outros assentos para a fila 'A' aqui -->
+
 
     </GridLayout>
 
@@ -277,6 +277,9 @@
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:background="@drawable/assentobranco"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
         tools:layout_editor_absoluteX="25dp"
         tools:layout_editor_absoluteY="387dp"
         tools:ignore="MissingConstraints" />
@@ -286,6 +289,9 @@
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:background="@drawable/assentobranco"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
         tools:layout_editor_absoluteX="55dp"
         tools:layout_editor_absoluteY="387dp"
         tools:ignore="MissingConstraints" />
@@ -295,6 +301,9 @@
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:background="@drawable/assentoespecial"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
         tools:layout_editor_absoluteX="85dp"
         tools:layout_editor_absoluteY="387dp"
         tools:ignore="MissingConstraints" />
@@ -304,6 +313,9 @@
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:background="@drawable/assentoespecial"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
         tools:layout_editor_absoluteX="115dp"
         tools:layout_editor_absoluteY="387dp"
         tools:ignore="MissingConstraints" />
@@ -313,6 +325,9 @@
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:background="@drawable/assentoespecial"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
         tools:layout_editor_absoluteX="145dp"
         tools:layout_editor_absoluteY="387dp"
         tools:ignore="MissingConstraints" />
@@ -321,6 +336,9 @@
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:background="@drawable/assentobranco"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
         tools:layout_editor_absoluteX="175dp"
         tools:layout_editor_absoluteY="387dp"
         tools:ignore="MissingConstraints" />
@@ -329,6 +347,9 @@
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:background="@drawable/assentoespecial"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
         tools:layout_editor_absoluteX="235dp"
         tools:layout_editor_absoluteY="387dp"
         tools:ignore="MissingConstraints" />
@@ -337,6 +358,9 @@
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:background="@drawable/assentoespecial"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
         tools:layout_editor_absoluteX="265dp"
         tools:layout_editor_absoluteY="387dp"
         tools:ignore="MissingConstraints" />
@@ -345,6 +369,9 @@
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:background="@drawable/assentobranco"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
         tools:layout_editor_absoluteX="295dp"
         tools:layout_editor_absoluteY="387dp"
         tools:ignore="MissingConstraints" />
@@ -354,6 +381,9 @@
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:background="@drawable/assentobranco"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
         tools:layout_editor_absoluteX="325dp"
         tools:layout_editor_absoluteY="387dp"
         tools:ignore="MissingConstraints" />
@@ -363,6 +393,9 @@
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:background="@drawable/assentobranco"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
         tools:layout_editor_absoluteX="355dp"
         tools:layout_editor_absoluteY="387dp"
         tools:ignore="MissingConstraints" />
@@ -1276,8 +1309,9 @@
         android:layout_height="34dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/TELA"
-        tools:layout_editor_absoluteY="508dp" />
+        app:srcCompat="@drawable/tela"
+        tools:layout_editor_absoluteY="508dp"
+        tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
