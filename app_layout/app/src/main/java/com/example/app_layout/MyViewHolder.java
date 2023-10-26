@@ -15,7 +15,9 @@ public class MyViewHolder extends RecyclerView.ViewHolder {
 
 
 
-    public MyViewHolder(@NonNull View itemView) {
+
+
+    public MyViewHolder(@NonNull View itemView, SelectListener selectListener) {
         super(itemView);
 
         image_movie = itemView.findViewById(R.id.image_movie);
@@ -25,6 +27,19 @@ public class MyViewHolder extends RecyclerView.ViewHolder {
         text_note_public = itemView.findViewById(R.id.text_note_public);
         text_note_tomato = itemView.findViewById(R.id.text_note_tomato);
         text_data = itemView.findViewById(R.id.txt_data);
+
+        itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (selectListener != null){
+                    int pos = getAdapterPosition();
+
+                    if(pos != RecyclerView.NO_POSITION){
+                        selectListener.onClicked(pos);
+                    }
+                }
+            }
+        });
 
 
     }

@@ -25,11 +25,11 @@
 
     <View
         android:id="@+id/viewDescIngresso"
-        android:layout_width="308dp"
-        android:layout_height="165dp"
+        android:layout_width="222dp"
+        android:layout_height="166dp"
         android:layout_alignParentLeft="true"
-        android:background="@drawable/descricao_ingresso"
         android:layout_alignParentTop="true"
+        android:background="@drawable/descricao_ingresso"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.485"
@@ -38,11 +38,11 @@
         app:layout_constraintVertical_bias="0.0" />
 
 
-    <View
+    <ImageView
         android:id="@+id/imgIngressoFilme"
-        android:layout_width="310dp"
-        android:layout_height="319dp"
-        android:layout_marginTop="80dp"
+        android:layout_width="226dp"
+        android:layout_height="282dp"
+        android:layout_marginTop="50dp"
         android:background="@color/black"
         app:circularflow_radiusInDP="5dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -56,24 +56,73 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_margin="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="10dp"
         android:background="@drawable/circle"
+        app:layout_constraintBottom_toTopOf="@+id/viewDescIngresso"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintHorizontal_bias="0.86"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="413dp" />
+        app:layout_constraintTop_toBottomOf="@+id/imgIngressoFilme"
+        app:layout_constraintVertical_bias="0.705"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/viewCircular2"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_margin="16dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginBottom="11dp"
         android:background="@drawable/circle"
+        app:layout_constraintBottom_toTopOf="@+id/viewDescIngresso"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintHorizontal_bias="0.137"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="413dp" />
+        app:layout_constraintTop_toBottomOf="@+id/imgIngressoFilme"
+        tools:ignore="MissingConstraints" />
+
+    <RelativeLayout
+        android:layout_width="320dp"
+        android:layout_height="166dp"
+        android:layout_marginStart="1dp"
+        android:background="@drawable/shp_teste"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.946">
+
+
+        <Button
+            android:id="@+id/bt_assentos"
+            android:layout_width="117dp"
+            android:layout_height="44dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="101dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="102dp"
+            android:layout_marginBottom="100dp"
+            android:text="Assentos" />
+
+        <Button
+            android:id="@+id/bt_comprar"
+            android:layout_width="134dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="94dp"
+            android:layout_marginTop="99dp"
+            android:layout_marginEnd="92dp"
+            android:layout_marginBottom="27dp"
+            android:text="Comprar" />
+    </RelativeLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -14,15 +14,18 @@ public class MyAdapter_emBreve extends RecyclerView.Adapter<MyViewHolder> {
     Context context;
     List<Filme> filmesListEmBreve;
 
-    public MyAdapter_emBreve(Context context, List<Filme> filmesListEmBreve) {
+    private final SelectListener listener;
+
+    public MyAdapter_emBreve(Context context, List<Filme> filmesListEmBreve, SelectListener listener) {
         this.context = context;
         this.filmesListEmBreve = filmesListEmBreve;
+        this.listener = listener;
     }
 
     @NonNull
     @Override
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        return new MyViewHolder(LayoutInflater.from(context).inflate(R.layout.movie_view_em_breve, parent, false ));
+        return new MyViewHolder(LayoutInflater.from(context).inflate(R.layout.movie_view_em_breve, parent, false ), listener);
     }
 
     @Override

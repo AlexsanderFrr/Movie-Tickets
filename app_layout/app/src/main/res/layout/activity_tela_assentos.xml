@@ -5,16 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#2B2E4A"
-    tools:context=".TelaAssentos">
+    tools:context=".TelaAssentos"
+    tools:ignore="ExtraText">
 
     <TextView
         android:id="@+id/textViewNav"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:layout_marginBottom="59dp"
+        android:layout_marginBottom="76dp"
         android:background="@drawable/shp_radius"
         android:text=""
         app:circularflow_radiusInDP="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/fileiraj"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -24,111 +26,133 @@
         android:id="@+id/fileiraa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="4dp"
         android:text="A"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="387dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fileirab"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/fileirab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="2dp"
         android:text="B"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="357dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fileirac"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/fileirac"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="4dp"
         android:text="C"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="327dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fileirad"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/fileirad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="2dp"
         android:text="D"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="297dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fileirae"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/fileirae"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="4dp"
         android:text="E"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="267dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fileiraf"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/fileiraf"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="2dp"
         android:text="F"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="237dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fileirag"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/fileirag"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="4dp"
         android:text="G"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="207dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fileirah"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/fileirah"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="2dp"
         android:text="H"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="177dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fileirai"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/fileirai"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="4dp"
         android:text="I"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="11dp"
-        tools:layout_editor_absoluteY="147dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fileiraj"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/fileiraj"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="7dp"
         android:text="J"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="117dp" />
+        app:layout_constraintEnd_toStartOf="@+id/j1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNav"
+        tools:ignore="MissingConstraints" />
 
     <!-- NUMERAÇÃO DAS FILEIRAS-->
 
@@ -137,124 +161,145 @@
         android:id="@+id/fileira1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="7dp"
         android:text="1"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="419dp" />
-
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/a1"
+        tools:ignore="MissingConstraints" />
 
 
     <TextView
         android:id="@+id/fileira2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="7dp"
         android:text="2"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="63dp"
-        tools:layout_editor_absoluteY="419dp" />
+        app:layout_constraintStart_toEndOf="@+id/fileira1"
+        app:layout_constraintTop_toBottomOf="@+id/a2"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/fileira3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="7dp"
         android:text="3"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="419dp" />
+        app:layout_constraintStart_toEndOf="@+id/fileira2"
+        app:layout_constraintTop_toBottomOf="@+id/a3"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/fileira4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="7dp"
         android:text="4"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="123dp"
-        tools:layout_editor_absoluteY="419dp" />
+        app:layout_constraintStart_toEndOf="@+id/fileira3"
+        app:layout_constraintTop_toBottomOf="@+id/a4"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/fileira5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="7dp"
         android:text="5"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="153dp"
-        tools:layout_editor_absoluteY="419dp" />
+        app:layout_constraintStart_toEndOf="@+id/fileira4"
+        app:layout_constraintTop_toBottomOf="@+id/a5"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/fileira6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="7dp"
         android:text="6"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="183dp"
-        tools:layout_editor_absoluteY="419dp" />
+        app:layout_constraintStart_toEndOf="@+id/fileira5"
+        app:layout_constraintTop_toBottomOf="@+id/a6"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/fileira7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="7dp"
         android:text="7"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="243dp"
-        tools:layout_editor_absoluteY="419dp" />
+        app:layout_constraintStart_toEndOf="@+id/fileira6"
+        app:layout_constraintTop_toBottomOf="@+id/a7"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/fileira8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="7dp"
         android:text="8"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="273dp"
-        tools:layout_editor_absoluteY="419dp" />
+        app:layout_constraintStart_toEndOf="@+id/fileira7"
+        app:layout_constraintTop_toBottomOf="@+id/a8"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/fileira9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="7dp"
         android:text="9"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="303dp"
-        tools:layout_editor_absoluteY="419dp" />
+        app:layout_constraintStart_toEndOf="@+id/fileira8"
+        app:layout_constraintTop_toBottomOf="@+id/a9"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/fileira10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="7dp"
         android:text="10"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="327dp"
-        tools:layout_editor_absoluteY="419dp" />
+        app:layout_constraintStart_toEndOf="@+id/fileira9"
+        app:layout_constraintTop_toBottomOf="@+id/a10"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/fileira11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="7dp"
         android:text="11"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="357dp"
-        tools:layout_editor_absoluteY="419dp" />
+        app:layout_constraintStart_toEndOf="@+id/fileira10"
+        app:layout_constraintTop_toBottomOf="@+id/a11"
+        tools:ignore="MissingConstraints" />
 
 
     <!--ASSENTOS -->
@@ -276,128 +321,176 @@
         android:id="@+id/a1"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
         android:clickable="true"
         android:focusable="true"
         android:onClick="trocarBackground"
         tools:layout_editor_absoluteX="25dp"
         tools:layout_editor_absoluteY="387dp"
+        app:layout_constraintStart_toEndOf="@+id/fileiraa"
+        app:layout_constraintTop_toBottomOf="@+id/b1"
         tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/a2"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
         android:clickable="true"
         android:focusable="true"
         android:onClick="trocarBackground"
         tools:layout_editor_absoluteX="55dp"
         tools:layout_editor_absoluteY="387dp"
+        app:layout_constraintStart_toEndOf="@+id/a1"
+        app:layout_constraintTop_toBottomOf="@+id/b2"
         tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/a3"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentoespecial"
         android:clickable="true"
         android:focusable="true"
         android:onClick="trocarBackground"
         tools:layout_editor_absoluteX="85dp"
         tools:layout_editor_absoluteY="387dp"
+        app:layout_constraintStart_toEndOf="@+id/a2"
+        app:layout_constraintTop_toBottomOf="@+id/b3"
         tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/a4"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentoespecial"
         android:clickable="true"
         android:focusable="true"
         android:onClick="trocarBackground"
         tools:layout_editor_absoluteX="115dp"
         tools:layout_editor_absoluteY="387dp"
+        app:layout_constraintStart_toEndOf="@+id/a3"
+        app:layout_constraintTop_toBottomOf="@+id/b4"
         tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/a5"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentoespecial"
         android:clickable="true"
         android:focusable="true"
         android:onClick="trocarBackground"
         tools:layout_editor_absoluteX="145dp"
         tools:layout_editor_absoluteY="387dp"
+        app:layout_constraintStart_toEndOf="@+id/a4"
+        app:layout_constraintTop_toBottomOf="@+id/b5"
         tools:ignore="MissingConstraints" />
+
     <View
         android:id="@+id/a6"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
         android:clickable="true"
         android:focusable="true"
         android:onClick="trocarBackground"
         tools:layout_editor_absoluteX="175dp"
         tools:layout_editor_absoluteY="387dp"
+        app:layout_constraintStart_toEndOf="@+id/a5"
+        app:layout_constraintTop_toBottomOf="@+id/b6"
         tools:ignore="MissingConstraints" />
+
     <View
         android:id="@+id/a7"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentoespecial"
         android:clickable="true"
         android:focusable="true"
         android:onClick="trocarBackground"
         tools:layout_editor_absoluteX="235dp"
         tools:layout_editor_absoluteY="387dp"
+        app:layout_constraintStart_toEndOf="@+id/a6"
+        app:layout_constraintTop_toBottomOf="@+id/b7"
         tools:ignore="MissingConstraints" />
+
     <View
         android:id="@+id/a8"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentoespecial"
         android:clickable="true"
         android:focusable="true"
         android:onClick="trocarBackground"
         tools:layout_editor_absoluteX="265dp"
         tools:layout_editor_absoluteY="387dp"
+        app:layout_constraintStart_toEndOf="@+id/a7"
+        app:layout_constraintTop_toBottomOf="@+id/b8"
         tools:ignore="MissingConstraints" />
+
     <View
         android:id="@+id/a9"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
         android:clickable="true"
         android:focusable="true"
         android:onClick="trocarBackground"
         tools:layout_editor_absoluteX="295dp"
         tools:layout_editor_absoluteY="387dp"
+        app:layout_constraintStart_toEndOf="@+id/a8"
+        app:layout_constraintTop_toBottomOf="@+id/b9"
         tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/a10"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
         android:clickable="true"
         android:focusable="true"
         android:onClick="trocarBackground"
         tools:layout_editor_absoluteX="325dp"
         tools:layout_editor_absoluteY="387dp"
+        app:layout_constraintStart_toEndOf="@+id/a9"
+        app:layout_constraintTop_toBottomOf="@+id/b10"
         tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/a11"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
         android:clickable="true"
         android:focusable="true"
         android:onClick="trocarBackground"
         tools:layout_editor_absoluteX="355dp"
         tools:layout_editor_absoluteY="387dp"
+        app:layout_constraintStart_toEndOf="@+id/a10"
+        app:layout_constraintTop_toBottomOf="@+id/b11"
         tools:ignore="MissingConstraints" />
 
     <!-- Assentos da fila 'B' (1 a 11) -->
@@ -405,99 +498,154 @@
         android:id="@+id/b1"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="4dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="357dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/fileirab"
+        app:layout_constraintTop_toBottomOf="@+id/c1"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/b2"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="4dp"
         android:background="@drawable/assentobranco"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="357dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/b1"
+        app:layout_constraintTop_toBottomOf="@+id/c2"
         tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/b3"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
         android:background="@drawable/assentobranco"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="357dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/b2"
+        app:layout_constraintTop_toBottomOf="@+id/c3"
         tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/b4"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="4dp"
         android:background="@drawable/assentobranco"
-        tools:layout_editor_absoluteX="115dp"
-        tools:layout_editor_absoluteY="357dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/b3"
+        app:layout_constraintTop_toBottomOf="@+id/c4"
         tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/b5"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="4dp"
         android:background="@drawable/assentobranco"
-        tools:layout_editor_absoluteX="145dp"
-        tools:layout_editor_absoluteY="357dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/b4"
+        app:layout_constraintTop_toBottomOf="@+id/c5"
         tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/b6"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="4dp"
         android:background="@drawable/assentobranco"
-        tools:layout_editor_absoluteX="175dp"
-        tools:layout_editor_absoluteY="357dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/b5"
+        app:layout_constraintTop_toBottomOf="@+id/c6"
         tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/b7"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="4dp"
         android:background="@drawable/assentobranco"
-        tools:layout_editor_absoluteX="235dp"
-        tools:layout_editor_absoluteY="357dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/b6"
+        app:layout_constraintTop_toBottomOf="@+id/c7"
         tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/b8"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="4dp"
         android:background="@drawable/assentobranco"
-        tools:layout_editor_absoluteX="265dp"
-        tools:layout_editor_absoluteY="357dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/b7"
+        app:layout_constraintTop_toBottomOf="@+id/c8"
         tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/b9"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="4dp"
         android:background="@drawable/assentobranco"
-        tools:layout_editor_absoluteX="295dp"
-        tools:layout_editor_absoluteY="357dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/b8"
+        app:layout_constraintTop_toBottomOf="@+id/c9"
         tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/b10"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
         android:background="@drawable/assentobranco"
-        tools:layout_editor_absoluteX="325dp"
-        tools:layout_editor_absoluteY="357dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/b9"
+        app:layout_constraintTop_toBottomOf="@+id/c10"
         tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/b11"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="4dp"
         android:background="@drawable/assentobranco"
-        tools:layout_editor_absoluteX="355dp"
-        tools:layout_editor_absoluteY="357dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/b10"
+        app:layout_constraintTop_toBottomOf="@+id/c11"
         tools:ignore="MissingConstraints" />
 
     <!-- Assentos da fila 'C' (1 a 11) -->
@@ -505,100 +653,155 @@
         android:id="@+id/c1"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="327dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/fileirac"
+        app:layout_constraintTop_toBottomOf="@+id/d1"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/c2"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="327dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/c1"
+        app:layout_constraintTop_toBottomOf="@+id/d2"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/c3"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="327dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/c2"
+        app:layout_constraintTop_toBottomOf="@+id/d3"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/c4"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="115dp"
-        tools:layout_editor_absoluteY="327dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/c3"
+        app:layout_constraintTop_toBottomOf="@+id/d4"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/c5"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="145dp"
-        tools:layout_editor_absoluteY="327dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/c4"
+        app:layout_constraintTop_toBottomOf="@+id/d5"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/c6"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="175dp"
-        tools:layout_editor_absoluteY="327dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/c5"
+        app:layout_constraintTop_toBottomOf="@+id/d6"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/c7"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="235dp"
-        tools:layout_editor_absoluteY="327dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/c6"
+        app:layout_constraintTop_toBottomOf="@+id/d7"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/c8"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="265dp"
-        tools:layout_editor_absoluteY="327dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/c7"
+        app:layout_constraintTop_toBottomOf="@+id/d8"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/c9"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="295dp"
-        tools:layout_editor_absoluteY="327dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/c8"
+        app:layout_constraintTop_toBottomOf="@+id/d9"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/c10"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="325dp"
-        tools:layout_editor_absoluteY="327dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/c9"
+        app:layout_constraintTop_toBottomOf="@+id/d10"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/c11"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="355dp"
-        tools:layout_editor_absoluteY="327dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/c10"
+        app:layout_constraintTop_toBottomOf="@+id/d11"
+        tools:ignore="MissingConstraints" />
 
 
     <!-- Assentos da fila 'D' (1 a 11) -->
@@ -606,200 +809,310 @@
         android:id="@+id/d1"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="3dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="297dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/fileirad"
+        app:layout_constraintTop_toBottomOf="@+id/e1"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/d2"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="3dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="297dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/d1"
+        app:layout_constraintTop_toBottomOf="@+id/e2"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/d3"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="3dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="297dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/d2"
+        app:layout_constraintTop_toBottomOf="@+id/e3"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/d4"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="3dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="115dp"
-        tools:layout_editor_absoluteY="297dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/d3"
+        app:layout_constraintTop_toBottomOf="@+id/e4"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/d5"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="3dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="145dp"
-        tools:layout_editor_absoluteY="297dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/d4"
+        app:layout_constraintTop_toBottomOf="@+id/e5"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/d6"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="3dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="175dp"
-        tools:layout_editor_absoluteY="297dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/d5"
+        app:layout_constraintTop_toBottomOf="@+id/e6"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/d7"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="3dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="235dp"
-        tools:layout_editor_absoluteY="297dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/d6"
+        app:layout_constraintTop_toBottomOf="@+id/e7"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/d8"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="3dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="265dp"
-        tools:layout_editor_absoluteY="297dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/d7"
+        app:layout_constraintTop_toBottomOf="@+id/e8"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/d9"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="3dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="295dp"
-        tools:layout_editor_absoluteY="297dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/d8"
+        app:layout_constraintTop_toBottomOf="@+id/e9"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/d10"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="3dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="325dp"
-        tools:layout_editor_absoluteY="297dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/d9"
+        app:layout_constraintTop_toBottomOf="@+id/e10"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/d11"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="3dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="355dp"
-        tools:layout_editor_absoluteY="297dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/d10"
+        app:layout_constraintTop_toBottomOf="@+id/e11"
+        tools:ignore="MissingConstraints" />
 
     <!-- Assentos da fila 'E' (1 a 11) -->
     <View
         android:id="@+id/e1"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="267dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/fileirae"
+        app:layout_constraintTop_toBottomOf="@+id/f1"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/e2"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="267dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/e1"
+        app:layout_constraintTop_toBottomOf="@+id/f2"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/e3"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="267dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/e2"
+        app:layout_constraintTop_toBottomOf="@+id/f3"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/e4"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="115dp"
-        tools:layout_editor_absoluteY="267dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/e3"
+        app:layout_constraintTop_toBottomOf="@+id/f4"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/e5"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="145dp"
-        tools:layout_editor_absoluteY="267dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/e4"
+        app:layout_constraintTop_toBottomOf="@+id/f5"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/e6"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="175dp"
-        tools:layout_editor_absoluteY="267dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/e5"
+        app:layout_constraintTop_toBottomOf="@+id/f6"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/e7"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="235dp"
-        tools:layout_editor_absoluteY="267dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/e6"
+        app:layout_constraintTop_toBottomOf="@+id/f7"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/e8"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="265dp"
-        tools:layout_editor_absoluteY="267dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/e7"
+        app:layout_constraintTop_toBottomOf="@+id/f8"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/e9"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="295dp"
-        tools:layout_editor_absoluteY="267dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/e8"
+        app:layout_constraintTop_toBottomOf="@+id/f9"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/e10"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="325dp"
-        tools:layout_editor_absoluteY="267dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/e9"
+        app:layout_constraintTop_toBottomOf="@+id/f10"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/e11"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="355dp"
-        tools:layout_editor_absoluteY="267dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/e10"
+        app:layout_constraintTop_toBottomOf="@+id/f11"
+        tools:ignore="MissingConstraints" />
 
 
     <!-- Assentos da fila 'F' (1 a 11) -->
@@ -807,300 +1120,465 @@
         android:id="@+id/f1"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="4dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="237dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/fileiraf"
+        app:layout_constraintTop_toBottomOf="@+id/g1"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/f2"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="4dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="237dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/f1"
+        app:layout_constraintTop_toBottomOf="@+id/g2"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/f3"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="4dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="237dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/f2"
+        app:layout_constraintTop_toBottomOf="@+id/g3"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/f4"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="4dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="115dp"
-        tools:layout_editor_absoluteY="237dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/f3"
+        app:layout_constraintTop_toBottomOf="@+id/g4"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/f5"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="4dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="145dp"
-        tools:layout_editor_absoluteY="237dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/f4"
+        app:layout_constraintTop_toBottomOf="@+id/g5"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/f6"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="4dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="175dp"
-        tools:layout_editor_absoluteY="237dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/f5"
+        app:layout_constraintTop_toBottomOf="@+id/g6"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/f7"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="4dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="235dp"
-        tools:layout_editor_absoluteY="237dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/f6"
+        app:layout_constraintTop_toBottomOf="@+id/g7"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/f8"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="4dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="265dp"
-        tools:layout_editor_absoluteY="237dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/f7"
+        app:layout_constraintTop_toBottomOf="@+id/g8"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/f9"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="4dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="295dp"
-        tools:layout_editor_absoluteY="237dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/f8"
+        app:layout_constraintTop_toBottomOf="@+id/g9"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/f10"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="4dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="325dp"
-        tools:layout_editor_absoluteY="237dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/f9"
+        app:layout_constraintTop_toBottomOf="@+id/g10"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/f11"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="4dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="355dp"
-        tools:layout_editor_absoluteY="237dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/f10"
+        app:layout_constraintTop_toBottomOf="@+id/g11"
+        tools:ignore="MissingConstraints" />
 
     <!-- Assentos da fila 'G' (1 a 11) -->
     <View
         android:id="@+id/g1"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="207dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/fileirag"
+        app:layout_constraintTop_toBottomOf="@+id/h1"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/g2"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="207dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/g1"
+        app:layout_constraintTop_toBottomOf="@+id/h2"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/g3"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="207dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/g2"
+        app:layout_constraintTop_toBottomOf="@+id/h3"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/g4"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="115dp"
-        tools:layout_editor_absoluteY="207dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/g3"
+        app:layout_constraintTop_toBottomOf="@+id/h4"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/g5"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="145dp"
-        tools:layout_editor_absoluteY="207dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/g4"
+        app:layout_constraintTop_toBottomOf="@+id/h5"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/g6"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="175dp"
-        tools:layout_editor_absoluteY="207dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/g5"
+        app:layout_constraintTop_toBottomOf="@+id/h6"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/g7"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="235dp"
-        tools:layout_editor_absoluteY="207dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/g6"
+        app:layout_constraintTop_toBottomOf="@+id/h7"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/g8"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="265dp"
-        tools:layout_editor_absoluteY="207dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/g7"
+        app:layout_constraintTop_toBottomOf="@+id/h8"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/g9"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="295dp"
-        tools:layout_editor_absoluteY="207dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/g8"
+        app:layout_constraintTop_toBottomOf="@+id/h9"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/g10"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="325dp"
-        tools:layout_editor_absoluteY="207dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/g9"
+        app:layout_constraintTop_toBottomOf="@+id/h10"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/g11"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="355dp"
-        tools:layout_editor_absoluteY="207dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/g10"
+        app:layout_constraintTop_toBottomOf="@+id/h11"
+        tools:ignore="MissingConstraints" />
 
     <!-- Assentos da fila 'H' (1 a 11) -->
     <View
         android:id="@+id/h1"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="177dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/fileirah"
+        app:layout_constraintTop_toBottomOf="@+id/i1"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/h2"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="4dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="177dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/h1"
+        app:layout_constraintTop_toBottomOf="@+id/i2"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/h3"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="4dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="177dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/h2"
+        app:layout_constraintTop_toBottomOf="@+id/i3"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/h4"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="4dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="115dp"
-        tools:layout_editor_absoluteY="177dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/h3"
+        app:layout_constraintTop_toBottomOf="@+id/i4"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/h5"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="145dp"
-        tools:layout_editor_absoluteY="177dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/h4"
+        app:layout_constraintTop_toBottomOf="@+id/i5"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/h6"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="4dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="175dp"
-        tools:layout_editor_absoluteY="177dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/h5"
+        app:layout_constraintTop_toBottomOf="@+id/i6"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/h7"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="4dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="235dp"
-        tools:layout_editor_absoluteY="177dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/h6"
+        app:layout_constraintTop_toBottomOf="@+id/i7"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/h8"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="4dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="265dp"
-        tools:layout_editor_absoluteY="177dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/h7"
+        app:layout_constraintTop_toBottomOf="@+id/i8"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/h9"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="4dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="295dp"
-        tools:layout_editor_absoluteY="177dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/h8"
+        app:layout_constraintTop_toBottomOf="@+id/i9"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/h10"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="4dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="325dp"
-        tools:layout_editor_absoluteY="177dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/h9"
+        app:layout_constraintTop_toBottomOf="@+id/i10"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/h11"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="4dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="355dp"
-        tools:layout_editor_absoluteY="177dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/h10"
+        app:layout_constraintTop_toBottomOf="@+id/i11"
+        tools:ignore="MissingConstraints" />
 
 
     <!-- Assentos da fila 'I' (1 a 11) -->
@@ -1108,210 +1586,341 @@
         android:id="@+id/i1"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="147dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/fileirai"
+        app:layout_constraintTop_toBottomOf="@+id/j1"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/i2"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="147dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/i1"
+        app:layout_constraintTop_toBottomOf="@+id/j2"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/i3"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="147dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/i2"
+        app:layout_constraintTop_toBottomOf="@+id/j3"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/i4"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="115dp"
-        tools:layout_editor_absoluteY="147dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/i3"
+        app:layout_constraintTop_toBottomOf="@+id/j4"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/i5"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="145dp"
-        tools:layout_editor_absoluteY="147dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/i4"
+        app:layout_constraintTop_toBottomOf="@+id/j5"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/i6"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="175dp"
-        tools:layout_editor_absoluteY="147dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/i5"
+        app:layout_constraintTop_toBottomOf="@+id/j6"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/i7"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="235dp"
-        tools:layout_editor_absoluteY="147dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/i6"
+        app:layout_constraintTop_toBottomOf="@+id/j7"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/i8"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="265dp"
-        tools:layout_editor_absoluteY="147dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/i7"
+        app:layout_constraintTop_toBottomOf="@+id/j8"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/i9"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="295dp"
-        tools:layout_editor_absoluteY="147dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/i8"
+        app:layout_constraintTop_toBottomOf="@+id/j9"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/i10"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="325dp"
-        tools:layout_editor_absoluteY="147dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/i9"
+        app:layout_constraintTop_toBottomOf="@+id/j10"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/i11"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="355dp"
-        tools:layout_editor_absoluteY="147dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/i10"
+        app:layout_constraintTop_toBottomOf="@+id/j11"
+        tools:ignore="MissingConstraints" />
 
     <!-- Assentos da fila 'J' (1 a 11) -->
     <View
         android:id="@+id/j1"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="76dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="117dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/fileiraj"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNav"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/j2"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="76dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="117dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/j1"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNav"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/j3"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="76dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="117dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/j2"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNav"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/j4"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="76dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="115dp"
-        tools:layout_editor_absoluteY="117dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/j3"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNav"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/j5"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="76dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="145dp"
-        tools:layout_editor_absoluteY="117dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/j4"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNav"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/j6"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="76dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="175dp"
-        tools:layout_editor_absoluteY="117dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/j5"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNav"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/j7"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="76dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="235dp"
-        tools:layout_editor_absoluteY="117dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/j6"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNav"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/j8"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="76dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="265dp"
-        tools:layout_editor_absoluteY="117dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/j7"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNav"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/j9"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="76dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="295dp"
-        tools:layout_editor_absoluteY="117dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/j8"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNav"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/j10"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="76dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="325dp"
-        tools:layout_editor_absoluteY="117dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/j9"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNav"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/j11"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="76dp"
         android:background="@drawable/assentobranco"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="355dp"
-        tools:layout_editor_absoluteY="117dp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="trocarBackground"
+        app:layout_constraintStart_toEndOf="@+id/j10"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNav"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="324dp"
         android:layout_height="34dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginBottom="309dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.574"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fileira1"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/shp_teste" />
+
+    <Button
+        android:id="@+id/bt_confirmar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="198dp"
+        android:layout_marginEnd="154dp"
+        android:layout_marginBottom="63dp"
+        android:text="Confirmar"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/tela"
         tools:layout_editor_absoluteY="508dp"
         tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
